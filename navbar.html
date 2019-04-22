@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Navbar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800">
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
+
+</head>
+
+<body onload="select_page(0)">
+    <div id="smartphone">
+
+        <div class="content">
+
+            <div class="page page_active" id="page1">
+                <h3>Page one</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nisi sint, ut saepe excepturi
+                    laudantium sit reprehenderit odit quas assumenda ex placeat, pariatur maxime quisquam beatae odio
+                    voluptatum doloremque labore?</p>
+            </div>
+
+            <div class="page page_active" id="page2">
+                <h3>Page two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas molestias ducimus consequatur quos
+                    labore sit, placeat cum similique aspernatur ea qui, totam voluptates culpa ad dolorem eveniet
+                    voluptate debitis architecto.</p>
+            </div>
+
+            <div class="page page_active" id="page3">
+                <h3>Page three</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea hic doloremque itaque minus qui, ipsa
+                    quis at rem quae similique! Error aliquam quisquam dolorem inventore aut animi ad rerum explicabo.
+                </p>
+            </div>
+
+            <div class="page page_active" id="page4">
+                <h3>Page four</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quas, ex nostrum officiis assumenda
+                    provident eaque ducimus quam similique mollitia temporibus quod. Obcaecati ullam id voluptatibus
+                    magni accusamus aliquam dolorum?</p>
+            </div>
+
+            <div class="page page_active" id="page5">
+                <h3>Page five</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium, dignissimos blanditiis fuga
+                    nihil officia numquam quos! Excepturi sequi porro, asperiores illo vitae natus animi facere quaerat
+                    molestias dolorem consequatur.</p>
+            </div>
+        </div>
+
+        <div class="nav">
+            <div class="circle"></div>
+
+            <button class="button_icon button_icon_selected" onclick="select_page(0)">
+                <i class="fas fa-home"></i>
+            </button>
+            <button class="button_icon button_icon_selected" onclick="select_page(1)">
+                <i class="fas fa-search"></i>
+            </button>
+            <button class="button_icon button_icon_selected" onclick="select_page(2)">
+                <i class="fas fa-plus-square"></i>
+            </button>
+            <button class="button_icon button_icon_selected" onclick="select_page(3)">
+                <i class="far fa-heart"></i>
+            </button>
+            <button class="button_icon button_icon_selected" onclick="select_page(4)">
+                <i class="far fa-user"></i>
+            </button>
+
+        </div>
+    </div>
+    <script src="js/navbar.js"></script>
+</body>
+
+</html>
